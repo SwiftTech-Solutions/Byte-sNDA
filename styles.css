@@ -122,7 +122,7 @@ footer.footer {
     background-color: #f4f4f4;
     text-align: center;
     padding: 15px;
-    position: fixed;
+    position: float;
     bottom: 0;
     width: 100%;
     border-top: 1px solid #ccc;
