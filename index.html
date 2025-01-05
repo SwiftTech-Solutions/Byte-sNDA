@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Tech NDA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nda-container">
+        <h1>Non-Disclosure Agreement (NDA)</h1>
+        <p class="nda-text">
+            Welcome to Line Tech! Before proceeding, you must agree to our Non-Disclosure Agreement. By accepting, you agree to the rules, penalties, and confidentiality requirements outlined below.
+        </p>
+
+        <div class="rules">
+            <h2>Rules</h2>
+            <ul>
+                <li>No screenshots or video recordings of the website are allowed.</li>
+                <li>All content must remain confidential.</li>
+                <li>Breaching these rules will result in penalties, including IP bans.</li>
+            </ul>
+        </div>
+
+        <form id="nda-form">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" required>
+
+            <label for="phone-number">Phone Number:</label>
+            <input type="tel" id="phone-number" name="phone-number" required>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="accept-rules" required>
+                <label for="accept-rules">I have read and agree to the terms of this NDA.</label>
+            </div>
+
+            <button type="submit" id="accept-button">Accept and Proceed</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
