@@ -139,41 +139,126 @@ footer.footer a:hover {
 }
 
 
-/* Privacy Policy Section */
-.footer {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin-top: 30px;
-    text-align: center;
-    border-top: 1px solid #ccc;
-    border-radius: 8px;
-}
-
-.footer h2 {
-    font-size: 1.5rem;
-    color: #007BFF;
-    margin-bottom: 15px;
-}
-
-.footer p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
-
-.footer ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    color: #555;
-}
-
-.footerul li {
-    margin-bottom: 8px;
-}
-
 
 /* Media Queries */
+
+/* For small screens (mobile devices) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .nda-container {
+        padding: 15px; /* Reduced padding for smaller devices */
+        width: 100%; /* Ensure the content fits within smaller screen width */
+    }
+
+    footer.footer {
+        font-size: 14px; /* Adjust font size for the footer */
+        padding: 10px; /* Reduce footer padding */
+    }
+
+    footer.footer a {
+        font-size: 16px; /* Adjust link size for better readability */
+    }
+}
+
+
+/* For iPhone 13 (portrait mode) and similar devices */
+@media (max-width: 390px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .nda-container {
+        width: 100%; /* Full width on smaller screens */
+        padding: 15px; /* Adjust padding for better fit */
+    }
+
+    footer.footer {
+        font-size: 14px; /* Adjust footer font size */
+        padding: 10px; /* Footer padding */
+    }
+
+    footer.footer a {
+        font-size: 16px; /* Adjust link font size */
+    }
+
+    .rules ul {
+        padding-left: 10px; /* Adjust padding of list items */
+    }
+}
+
+/* For iPhone 13 (landscape mode) and similar devices */
+@media (max-width: 844px) {
+    .nda-container {
+        width: 80%; /* Center the content with some space on the sides */
+        padding: 18px; /* Slightly larger padding */
+    }
+
+    footer.footer {
+        font-size: 16px; /* Slightly larger font size for footer */
+    }
+
+    footer.footer a {
+        font-size: 18px; /* Larger link font size */
+    }
+
+    .rules ul {
+        font-size: 1rem; /* Increase the font size for list items */
+    }
+}
+
+/* For extra-small screens (very small mobile devices) */
+@media (max-width: 480px) {
+    .nda-container {
+        padding: 10px; /* More reduced padding for very small screens */
+    }
+
+    footer.footer {
+        font-size: 12px; /* Further reduced font size */
+        padding: 8px; /* Further reduced footer padding */
+    }
+
+    footer.footer a {
+        font-size: 14px; /* Smaller link size for tiny screens */
+    }
+
+    .rules ul {
+        padding-left: 10px; /* Reduce padding on list for better fit */
+    }
+}
+
+/* For larger screens (tablets or small laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .nda-container {
+        width: 80%; /* Adjust width for better readability on medium screens */
+    }
+
+    footer.footer {
+        font-size: 16px; /* Adjust font size for medium screens */
+    }
+
+    footer.footer a {
+        font-size: 18px; /* Slightly larger link size */
+    }
+}
+
+/* For very large screens (large desktops or monitors) */
+@media (min-width: 1200px) {
+    .nda-container {
+        width: 60%; /* Make content more centered and less wide on large screens */
+    }
+
+    footer.footer {
+        font-size: 18px; /* Larger footer font size for big screens */
+    }
+
+    footer.footer a {
+        font-size: 20px; /* Larger link size on large screens */
+    }
+}
+
 
 /* Medium Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
@@ -207,6 +292,116 @@ footer.footer a:hover {
     button {
         font-size: 1rem;
         padding: 10px;
+    }
+}
+
+
+/* For very small screens (e.g., small phones in portrait mode) */
+@media (max-width: 320px) {
+    body {
+        font-size: 12px; /* Smaller font size for tiny screens */
+    }
+
+    .nda-container {
+        width: 100%; /* Full width on tiny screens */
+        padding: 8px; /* Minimal padding */
+    }
+
+    footer.footer {
+        font-size: 12px; /* Reduced footer font size */
+        padding: 5px; /* Minimal padding for footer */
+    }
+
+    footer.footer a {
+        font-size: 14px; /* Smaller font size for footer link */
+    }
+
+    .rules ul {
+        padding-left: 5px; /* Tighten padding in list items */
+    }
+}
+
+/* For medium-sized screens (large phones, smaller tablets) */
+@media (min-width: 480px) and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .nda-container {
+        width: 90%; /* Increase container width */
+        padding: 12px; /* Adjust padding */
+    }
+
+    footer.footer {
+        font-size: 14px; /* Adjust footer font size */
+        padding: 10px; /* Footer padding */
+    }
+
+    footer.footer a {
+        font-size: 16px; /* Adjust link font size */
+    }
+
+    .rules ul {
+        padding-left: 15px; /* Add padding to list items */
+    }
+}
+
+/* For screens between 1024px and 1200px (Large Tablets and Desktops) */
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .nda-container {
+        width: 75%; /* Center content with a wider container */
+    }
+
+    footer.footer {
+        font-size: 16px; /* Standard footer font size for medium-large screens */
+    }
+
+    footer.footer a {
+        font-size: 18px; /* Slightly larger font for links */
+    }
+
+    .rules ul {
+        font-size: 1.1rem; /* Slightly larger list item text */
+    }
+}
+
+/* For larger desktop screens (min-width: 1440px) */
+@media (min-width: 1440px) {
+    .nda-container {
+        width: 60%; /* Reduce container width on very large screens */
+    }
+
+    footer.footer {
+        font-size: 18px; /* Larger footer text */
+        padding: 20px; /* Increased padding for footer */
+    }
+
+    footer.footer a {
+        font-size: 20px; /* Larger link font size */
+    }
+
+    .rules ul {
+        font-size: 1.2rem; /* Even larger font for better readability */
+    }
+}
+
+/* For ultra-wide screens (large desktops, TVs, etc.) */
+@media (min-width: 1920px) {
+    .nda-container {
+        width: 55%; /* Very large containers for ultra-wide screens */
+    }
+
+    footer.footer {
+        font-size: 20px; /* Very large footer text for large screens */
+        padding: 25px; /* Generous footer padding */
+    }
+
+    footer.footer a {
+        font-size: 24px; /* Large font size for footer link */
+    }
+
+    .rules ul {
+        font-size: 1.3rem; /* Larger font for wide screens */
     }
 }
 
