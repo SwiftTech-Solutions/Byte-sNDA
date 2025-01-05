@@ -117,6 +117,28 @@ button:active {
 }
 
 
+/* Footer Styles */
+footer.footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+
+footer.footer a {
+    color: #007BFF;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+footer.footer a:hover {
+    text-decoration: underline;
+}
+
+
 /* Privacy Policy Section */
 .footer {
     background-color: #f9f9f9;
