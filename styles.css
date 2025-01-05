@@ -116,10 +116,9 @@ button:active {
     transform: translateY(1px);
 }
 
-/* Existing Styles */
 
 /* Privacy Policy Section */
-footer.privacy-policy {
+.footer {
     background-color: #f9f9f9;
     padding: 20px;
     margin-top: 30px;
@@ -128,26 +127,26 @@ footer.privacy-policy {
     border-radius: 8px;
 }
 
-footer.privacy-policy h2 {
+.footer h2 {
     font-size: 1.5rem;
     color: #007BFF;
     margin-bottom: 15px;
 }
 
-footer.privacy-policy p {
+.footer p {
     font-size: 1rem;
     color: #555;
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
-footer.privacy-policy ul {
+.footer ul {
     list-style-type: disc;
     padding-left: 20px;
     color: #555;
 }
 
-footer.privacy-policy ul li {
+.footerul li {
     margin-bottom: 8px;
 }
 
